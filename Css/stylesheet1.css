@@ -1,0 +1,339 @@
+body{
+    width: 100%;
+    background-color: #1193f5;
+    color: #FFF;
+    font-family: 'Open Sans', sans-serif;
+}
+/*LogIN side */
+.logInboks1{
+    text-align: center;
+    margin: 0% 0% 10% 0%;
+}
+#containerNavn{
+    font-size: 4em;
+    margin-bottom:;
+}
+#containerNavn2{
+    font-size: 2.8em;
+    margin-top: auto
+}
+#titel{
+    margin-bottom: 0;
+}
+#undertitel{
+    margin-top: 0;
+}
+#logIntekst{
+    float: left;
+    width: 80%; 
+}
+#logIntekst1{
+    font-size: 7em;
+    margin-left: 5%
+}
+input{
+    width: 80%;
+    height: 80px;
+    margin-left: 10%;
+    background:none;
+    border: none;
+    font-size: 2.5em;
+    font-family: cursive;
+    margin-top: 5%;
+    font-family: 'Chicle', cursive;
+    text-decoration-color: #FFF;
+}
+hr{
+    color: #1193f5;
+    width: 80%;
+    height: 5px;
+}
+#info1{
+    float:right;
+    margin-right: 10%;
+    margin-top: 0;
+    font-size: 1.5em;  
+}
+#knapContainer {
+    width: 70%;
+    height: 100px;
+    color: #FFF;
+    font-size: 2em;
+    background-color: #4e4199;
+    margin-left: 15%;
+    margin-top: 150px;
+    border: none;
+   box-shadow: -0px 10px 30px #000;
+}
+#loginInfo{
+    font-size: 1.8em;
+    margin-left: 15%;
+    margin-top: 75px;
+}
+/* Menukanp */
+
+
+
+
+
+.content
+{
+	position: relative;
+	top: 5px;
+	width: 250px;
+	margin: 0 auto;
+}
+
+.admin-panel
+{
+	background: #1193f5;
+	width: 240px;
+	height: 40px;
+	color: #FFF;
+	border: none;
+	border-radius: 3px;
+	padding: 0 0 0 10px;
+	font: bold 13px Helvetica, sans-serif;
+	text-transform: uppercase;
+	line-height: 41px;
+	cursor: default;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+	margin-bottom: 7px;
+	box-shadow: 0 1px 1px rgba( 0, 0, 0, 0.2 );
+}
+
+.cog
+{
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding: 5px;
+	margin-top: 5px;
+	margin-right: 6px;
+	border: none;
+	color: #FFF;
+	font-size: 20px;
+}
+
+.admin-text:hover, .cog:hover { cursor: pointer; color: #555555; }
+
+input#toggle { display: none; }
+input#toggle ~ .menu { display: block; }
+input#toggle:checked ~ .menu { display: none; }
+
+.menu a
+{
+	display: block;
+	background: #1193f5;
+	width: 240px;
+	height: 40px;
+	padding: 0 0 0 10px;
+	font-size: 13px;
+	color: #FFF;
+	text-transform: uppercase;
+	text-decoration: none;
+	line-height: 40px;
+	box-shadow: 0 1px 1px rgba( 0, 0, 0, 0.2 );
+}
+.icon
+{
+	display:none;
+}
+/*sEND MAiL */
+#sendBoks1{
+    margin-left: 3%;
+}
+#udstilling{
+    font-size: 4em;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+    margin-top: 25%;
+    margin-bottom: 0%;
+    }
+#navn{
+    font-size: 1.3em;
+    letter-spacing: .2em;
+    margin: 0;
+}
+#x{
+    font-size: 3em;
+    letter-spacing: .2em;
+    margin-top: 0;
+}
+#Uddato{
+    font-size: 3em;
+    letter-spacing: .1em;
+    color:orange; 
+}
+/* slide show *codepen */
+.mySlides{
+    height: 600px;
+    width: 80%;
+    margin: 100px 0;
+}
+.knap{
+    height: 200px;
+    margin-top: 
+}
+.mySlides{
+    width: 100%;
+}
+.takbesked{
+    letter-spacing: .1em;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+#tak{
+    font-size: 2.6em;
+    margin-top: -50px;
+}
+#vises{
+    font-size: 1.6em;
+    letter-spacing: .15em;
+}
+#sendknap{
+    width: 100%;
+    height: 100px;
+    font-size: 2.5em;
+    letter-spacing: 0.1em;
+    background-color: #4e4199;
+    color: #FFF;
+    border: none;
+    box-shadow: 5px 10px 50px #7b669e;
+    float: right;
+    margin-top: 55px;
+}
+/*sende sektion slut*/ 
+/*Quize game sektion*/
+#gametitel{
+    width: 100%;
+    height: 115px;
+    background-color: #FFF;
+    margin-top: 200px;
+}
+#quizetitel{
+    font-size: 4.5em;
+    color: #167f7a;
+    margin-left: 5%; 
+}
+#spmaal{
+    margin: 10% 7% 0 3%;
+    letter-spacing: 0.1em;
+}
+#overskriftq{
+    font-size: 2.5em;
+}
+#brdtekstq{
+    font-size: 1.4em;
+}
+/* til quizen */
+#quiz {
+  margin: -44px 50px 0px;
+  position: relative;
+  width: calc(100% - 100px);
+}
+
+#quiz h1 {
+  color: #FAFAFA;
+  font-weight: 600;
+  font-size: 36px;
+  text-transform: uppercase;
+  text-align: left;
+  line-height: 44px;
+}
+
+#quiz button {
+  float: right;
+  margin: 8px 0px 0px 8px;
+  padding: 4px 8px;
+  background: #9ACFCC;
+  color: #00403C;
+  font-size: 14px;
+  cursor: pointer;
+  outline: none;
+}
+
+#quiz button:hover {
+  background: #36a39c;
+  color: #FFF;
+}
+
+#quiz button:disabled {
+  opacity: 0.5;
+  background: #9ACFCC;
+  color: #00403C;
+  cursor: default;
+}
+
+#question {
+  padding: 20px;
+  background: #FAFAFA;
+}
+
+#question h2 {
+  margin-bottom: 16px;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+#question input[type=radio] {
+  display: none;
+}
+
+#question label {
+  display: inline-block;
+  margin: 4px;
+  padding: 8px;
+  background: #FAE3BB;
+  color: #4C3000;
+  width: calc(50% - 8px);
+  min-width: 100px;
+  cursor: pointer;
+}
+
+#question label:hover {
+  background: #EBBB67;
+}
+
+#question input[type=radio]:checked + label {
+  background: #CB8306;
+  color: #FAFAFA;
+}
+
+#quiz-results {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+  top: 44px;
+  left: 0px;
+  background: #FAFAFA;
+  width: 100%;
+  height: calc(100% - 44px);
+}
+
+#quiz-results-message {
+  display: block;
+  color: #00403C;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#quiz-results-score {
+  display: block;
+  color: #31706c;
+  font-size: 20px;
+}
+
+#quiz-results-score b {
+  color: #00403C;
+  font-weight: 600;
+  font-size: 20px;
+}
+    
+
+

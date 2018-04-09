@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>En Verden af AR</title>
+        <meta name="description" content="En interaktiv guide til at komme godt i gang med Brackets.">
+        <link rel="stylesheet" href="Css/stylesheet1.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    </head>
+    <body>
+       <section id="sendBoks1">
+           <h1 id="udstilling">Udstilling</h1>
+           <p id="navn">SCIENCE MUSEERNE</p>
+           <h2 id="x">XXXXXX</h2>
+           <h2 id="Uddato">OCTOBER 15 - MARCH 18</h2>
+       </section>
+<!--kig på forklaring igen på w3school -->
+       <div class="Slideshow">
+  <img class="mySlides" src="img/L%C3%A6gekrave.jpg">
+  <img class="mySlides" src="img/compas.jpg" >
+  <img class="mySlides" src="img/udstilling.jpg" >
+
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" class="knap" onclick="plusDivs(1)">&#10095;</button>
+</div>
+    <section class="takbesked">
+        <h1 id="tak">TAK FOR DENNE GANG</h1>
+        <p id="vises"> Vi håber at i har nydt vores udstilling XXXXXXXXX.<br><br> Som en lille gave fra os til jer, vil vi gerne giver dig muligheden for at sende dine billeder fra vores GreenScreen og AR-app dirakte til din e-mail.</p>
+        <button id="sendknap" type="submit" class="signupbtn" href="#">Send Galleri</button>
+        
+    </section>
+     
+   <!--script-->
+   
+   <!-- w3school og hjælp, kig under notater-javascript for bedre forklaring -->
+   <script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+    </body> 
+</html>
